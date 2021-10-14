@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="grocery.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- <script>src="product_manager.js"</script> -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Prac</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-default  navbar-fixed-top navbar-dark bg-dark ">
+      <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="dals.html"><font style="color:lightblue">Dals</font></a>
+      <a href="pulses.html"><font style="color:lightblue">Pulses</font></a>
+      <a href="dryfruits.html"><font style="color:lightblue">Dry Fruits</font></a>
+      <a href="cookingoil.html"><font style="color:lightblue">Cooking Oil</font></a>
+      <a href="ghee.html"><font style="color:lightblue">Ghee & Vanaspathi</font></a>
+      <a href="flour.html"><font style="color:lightblue">Flours & Grains</font></a>
+      <a href="rice.html"><font style="color:lightblue">Rice & Rice Products</font></a>
+      <a href="masala.html"><font style="color:lightblue">Masala & Spices</font></a>
+      <a href="salt.html"><font style="color:lightblue">Salt/Sugar/Jaggery</font></a>
+    </div>
+    <span id="spanone"style="font-size:30px;cursor:pointer;color:white" onclick="openNav()">&#9776; Grocery</span>
+      <!-- <a id="aone" class="navbar-brand">Products -> Grocery</a> -->
+      <!-- <img src="products.png" alt="" width="35" height="30" class="d-inline-block align-text-top"> -->
+      <form class="d-flex">
+          <input class="form-control-lg me-2" type="search" placeholder="Search" aria-label="Search" id="search">
+          <button class="btn btn-outline-success" type="submit" id="sub">Search</button>
+        </form>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item" id="lione"><a href="adminlogin.html"><button type="button" name="button" class="btn btn-danger" onclick="adminhome.html">Log Out</button></a></li>
+        </ul>
+    </nav>
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    <h4 class="navbar-brand" id="hchana">Almonds</h4>
+    <hr id="hrone" style="width:100%;text-align:left;margin-left:20px;height:6px;color:rgb(3, 104, 255)">
+      <div class="card-deck" id="divone">
+          <div class="card" style="width: 10em;" >
+              <img src="nutrajalmonds.png">
+              <div class="card-block">
+                  <h4 class="card-title" id="gro">Nutraj California Almonds (Badam) <br>1 kg</h4>
+                  <p class="card-text">
+                     &#8377 999
+                  </p>
+              </div>
+          </div>
+          <div class="card" style="width: 10em;" >
+              <img src="happilopremiumalmond.png">
+              <div class="card-block">
+                  <h4 class="card-title" id="gro">Happilo Predium California Almonds<br>1 kg</h4>
+                  <p class="card-text">
+                     &#8377 1010
+                  </p>
+              </div>
+          </div>
+
+          <div class="card" style="width: 10em;" >
+              <img src="happiloalmond.png">
+              <div class="card-block">
+                  <h4 class="card-title" id="gro">Happilo Roasted and Salted almond<br>1 kg</h4>
+                  <p class="card-text">
+                     &#8377 1200
+                  </p>
+              </div>
+          </div>
+          <div class="card" style="width: 10em;" >
+
+          </div>
+          <div class="card" style="width: 10em;" >
+
+          </div>
+          <div class="card" style="width: 10em;" >
+
+          </div>
+
+        </div>
+        <h4 class="navbar-brand" id="hchana">Cashews</h4>
+        <hr id="hrone" style="width:100%;text-align:left;margin-left:20px;height:6px;color:rgb(3, 104, 255)">
+        <div class="card-deck" id="divone">
+          <div class="card" style="width: 10em;" >
+              <img src="nutrajcashews.png">
+              <div class="card-block">
+                  <h4 class="card-title" id="gro">Nutraj Cashews<br>1 kg</h4>
+                  <p class="card-text">
+                     &#8377 899
+                  </p>
+              </div>
+          </div>
+          <div class="card" style="width: 10em;" >
+              <img src="happilocashews.png">
+              <div class="card-block">
+                  <h4 class="card-title" id="gro">Happilo Cashews<br>1 kg</h4>
+                  <p class="card-text">
+                     &#8377 912
+                  </p>
+              </div>
+          </div>
+          <div class="card" style="width: 10em;" >
+            <img src="kalbavicashews.png">
+            <div class="card-block">
+                <h4 class="card-title" id="gro">Kalbavi Cashews<br>1 kg</h4>
+                <p class="card-text">
+                   &#8377 945
+                </p>
+            </div>
+          </div>
+        <div class="card" style="width: 10em;" >
+
+        </div>
+        <div class="card" style="width: 10em;" >
+
+        </div>
+        <div class="card" style="width: 10em;" >
+
+        </div>
+
+      </div>
+
+
+    <!-- </div> -->
+    <h4 class="navbar-brand" id="hchana">Pista</h4>
+    <hr id="hrone" style="width:100%;text-align:left;margin-left:20px;height:6px;color:rgb(3, 104, 255)">
+    <div class="card-deck" id="divone">
+      <div class="card" style="width: 10em;" >
+          <img src="nutrajpremium.png">
+          <div class="card-block">
+              <h4 class="card-title" id="gro">Nutraj Premium Pistachios<br>1 kg</h4>
+              <p class="card-text">
+                 &#8377 149
+              </p>
+          </div>
+      </div>
+      <div class="card" style="width: 10em;" >
+          <img src="nutrajiranian.png">
+          <div class="card-block">
+              <h4 class="card-title" id="gro">Nutraj Iranian Pistachios<br>1 kg</h4>
+              <p class="card-text">
+                 &#8377 220
+              </p>
+          </div>
+      </div>
+      <div class="card" style="width: 10em;" >
+
+      </div>
+    <div class="card" style="width: 10em;" >
+
+    </div>
+    <div class="card" style="width: 10em;" >
+
+    </div>
+    <div class="card" style="width: 10em;" >
+
+    </div>
+
+  </div>
+  <h4 class="navbar-brand" id="hchana">Dates</h4>
+  <hr id="hrone" style="width:100%;text-align:left;margin-left:20px;height:6px;color:rgb(3, 104, 255)">
+  <div class="card-deck" id="divone">
+    <div class="card" style="width: 10em;" >
+        <img src="lionarabian.png">
+        <div class="card-block">
+            <h4 class="card-title" id="gro">Lion Arabian Dates<br>1 kg</h4>
+            <p class="card-text">
+               &#8377 149
+            </p>
+        </div>
+    </div>
+    <div class="card" style="width: 10em;" >
+        <img src="emperordeseeded.png">
+        <div class="card-block">
+            <h4 class="card-title" id="gro">Emperor Deseeded black dates<br>1 kg</h4>
+            <p class="card-text">
+               &#8377 220
+            </p>
+        </div>
+    </div>
+    <div class="card" style="width: 10em;" >
+        <img src="falconseedless.png">
+        <div class="card-block">
+            <h4 class="card-title" id="gro">Falcon Seedless UAE dates<br>1 kg</h4>
+            <p class="card-text">
+               &#8377 190
+            </p>
+        </div>
+    </div>
+  <div class="card" style="width: 10em;" >
+
+
+  </div>
+  <div class="card" style="width: 10em;" >
+
+  </div>
+  <div class="card" style="width: 10em;" >
+
+  </div>
+
+</div>
+<h4 class="navbar-brand" id="hchana">Raisins</h4>
+<hr id="hrone" style="width:100%;text-align:left;margin-left:20px;height:6px;color:rgb(3, 104, 255)">
+<div class="card-deck" id="divone">
+  <div class="card" style="width: 10em;" >
+      <img src="mahafruitraisin.png">
+      <div class="card-block">
+          <h4 class="card-title" id="gro">mahafruit Premium Quality Kishmish<br>1 kg</h4>
+          <p class="card-text">
+             &#8377 149
+          </p>
+      </div>
+  </div>
+  <div class="card" style="width: 10em;" >
+    <img src="happilogreen.png">
+    <div class="card-block">
+        <h4 class="card-title" id="gro">Happilo seedless Green Raisins<br>1 kg</h4>
+        <p class="card-text">
+           &#8377 149
+        </p>
+    </div>
+  </div>
+  <div class="card" style="width: 10em;" >
+    <img src="happiloblack.png">
+    <div class="card-block">
+        <h4 class="card-title" id="gro">Happilo Premium Afghain Seedless Black Raisins<br>1 kg</h4>
+        <p class="card-text">
+           &#8377 149
+        </p>
+    </div>
+  </div>
+
+<div class="card" style="width: 10em;" >
+
+</div>
+<div class="card" style="width: 10em;" >
+
+</div>
+<div class="card" style="width: 10em;" >
+
+</div>
+
+</div>
+<h4 class="navbar-brand" id="hchana">Walnuts</h4>
+<hr id="hrone" style="width:100%;text-align:left;margin-left:20px;height:6px;color:rgb(3, 104, 255)">
+<div class="card-deck" id="divone">
+  <div class="card" style="width: 10em;" >
+      <img src="nutrajwholewalnut.png">
+      <div class="card-block">
+          <h4 class="card-title" id="gro">Nutraj California Whole Walnut<br>1 kg</h4>
+          <p class="card-text">
+             &#8377 149
+          </p>
+      </div>
+  </div>
+  <div class="card" style="width: 10em;" >
+    <img src="nutrajkernel.png">
+    <div class="card-block">
+        <h4 class="card-title" id="gro">Nutraj California Walnut Kernels<br>1 kg</h4>
+        <p class="card-text">
+           &#8377 149
+        </p>
+    </div>
+  </div>
+  <div class="card" style="width: 10em;" >
+  </div>
+
+<div class="card" style="width: 10em;" >
+
+</div>
+<div class="card" style="width: 10em;" >
+
+</div>
+<div class="card" style="width: 10em;" >
+
+</div>
+
+</div>
+<h4 class="navbar-brand" id="hchana">Others</h4>
+<hr id="hrone" style="width:100%;text-align:left;margin-left:20px;height:6px;color:rgb(3, 104, 255)">
+<div class="card-deck" id="divone">
+  <div class="card" style="width: 10em;" >
+      <img src="nutrajafghan.png">
+      <div class="card-block">
+          <h4 class="card-title" id="gro">Nutraj Afghan Figs - Anjeer<br>1 kg</h4>
+          <p class="card-text">
+             &#8377 149
+          </p>
+      </div>
+  </div>
+  <div class="card" style="width: 10em;" >
+    <img src="nutrajdried.png">
+    <div class="card-block">
+        <h4 class="card-title" id="gro">Nutraj Premium Dried Pitted Turkish Apricots<br>1 kg</h4>
+        <p class="card-text">
+           &#8377 149
+        </p>
+    </div>
+  </div>
+  <div class="card" style="width: 10em;" >
+    <img src="rajbhogmakhana.png">
+    <div class="card-block">
+        <h4 class="card-title" id="gro">Rajbhog Makhana (Fox Nuts)<br>1 kg</h4>
+        <p class="card-text">
+           &#8377 149
+        </p>
+    </div>
+  </div>
+
+<div class="card" style="width: 10em;" >
+
+</div>
+<div class="card" style="width: 10em;" >
+
+</div>
+<div class="card" style="width: 10em;" >
+
+</div>
+
+</div>
+
+
+
+
+  </body>
+  </html>
